@@ -1,0 +1,37 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    portfólioo 
+{% endblock %}
+
+{% block main %}
+   <h2> Suas transaçoes</h2>
+   <table class="table">
+        <thead>
+         <tr>
+              <th scope="col">Símbolo </th>
+              <th scope="col">Ações </th>
+              <th scope="col">Preços</th>
+         </tr>
+        </thead>
+        <tbody>
+         {% for row in database %}
+            <tr>
+                <td>{{ row["symbol"] }}</td>
+                <td>{{ row["shares"] }}</td>
+                <td>{{ row["prices"] }}</td>
+                
+            </tr>
+         {% endfor %}
+         </tbody>
+         <tfoot>
+            <tr>
+              <th scope=1>Valor total</th>
+              <th scope=1>{{ money| usd }}</th>
+           </tr>
+         </tfoot>
+    </table>
+ 
+{% endblock %}
+ 
+ 

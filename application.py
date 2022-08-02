@@ -208,8 +208,8 @@ def quote():
             return apology("Simbolo não existe") 
             # enviando info fo back para o front 
         return render_template("quoted.html", name = estoque["name"] , price = estoque["price"], symbol = estoque["symbol"]) 
+# ATENÇÃO: Para que a funçao lookup der certo, você tem que roda o programa em um console configurafo com a seguinte linha de comando: export API_KEY=pk_a5595b67022441f2863d3f6faba5642e
         
-
 @app.route("/register", methods=["GET", "POST"])
 def register():
     """Register user"""

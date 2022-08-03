@@ -274,7 +274,7 @@ def sell():
         user_money = user_money_db[0]["cash"]
         
         # Assegurando que o user só venda o que tem 
-        user_shares = db.execute("SELECT shares FROM transactions WHERE user_id=:id AND symbol = :symbol GROUP BY symbol",id = user_id, symbol = symbol)
+        user_shares = db.execute("SELECT  SUM(shares) AS shares WHERE user_id=:id AND symbol = :symbol GROUP BY symbol",id = user_id, symbol = symbol)
         user_shares_real = user_shares[0]["shares"]
         
         if shares > user_shares_real:

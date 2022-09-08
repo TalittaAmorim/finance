@@ -14,7 +14,7 @@
   <li> <i>Register:</i> Permite que um usuário se "registre" no site. O nome do usuário e senha são enviados via Flask e armazenados em um banco de dados sqlite 3 (A senha é amarzenada após passar pelo encriptografamento de uma função hash).
   <li> <i>Quote:</i> permite que um usuário consulte o preço de uma ação usando o símbolo represente de uma determinada empresa.</li>
   <li> <i>Buy:</i> Permite ao usuário comprar uma ação imaginária; As compras são salvas no banco de dados e o saldo de ações é atualizado.</li>
-  <li> <i>Index:</i> exibe uma tabela de resumo HTML dos fundos e ações atuais do usuário./li>
+  <li> <i>Index:</i> exibe uma tabela de resumo HTML dos fundos e ações atuais do usuário.</li>
   <li> <i>Sell:</i> Permite ao usuário vender ações; As vendidas são projetadas para o banco de dados e o conjunto de ações produzidos.</li>
   <li> <i>History:</i> Exibe uma tabela para o HTML Award o histórico de transações para o usuário.</li>
   </ol>

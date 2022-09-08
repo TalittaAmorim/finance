@@ -15,8 +15,8 @@
   <li> <i>Quote:</i> permite que um usuário consulte o preço de uma ação usando o símbolo represente de uma determinada empresa.</li>
   <li> <i>Buy:</i> Permite ao usuário comprar uma ação imaginária; As compras são salvas no banco de dados e o saldo de ações é atualizado.</li>
   <li> <i>Index:</i> exibe uma tabela de resumo HTML dos fundos e ações atuais do usuário./li>
-  <li> <i>Sell:</i> Permite ao usuário vender ações; As vendidas são projetadas para o banco de dados e o conjunto de ações produzidos./li>
-  <li> <i>History:</i> Exibe uma tabela para o HTML Award o histórico de transações para o usuário./li>
+  <li> <i>Sell:</i> Permite ao usuário vender ações; As vendidas são projetadas para o banco de dados e o conjunto de ações produzidos.</li>
+  <li> <i>History:</i> Exibe uma tabela para o HTML Award o histórico de transações para o usuário.</li>
   </ol>
 
 ![Captura de tela 2022-09-08 18 03 40](https://user-images.githubusercontent.com/99035126/189232402-3eeb0695-8947-47f1-993b-842452b8308c.png)

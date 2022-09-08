@@ -5,9 +5,8 @@
 <p> Essa web aplicação foi programada com o Flask, micro framework do python, pelo padrão de arquitetura de software MVC.</p>
  <p>**O site se conecta à API do Yahoo Finance para obter dados. A base de dados utilizada é SQL.<br>
   Sendo necessário rodar o comando <b>abaixo</b> no terminal para que aplicação tenha uma comunicação eficiente com á API.<br>
-  <b> export API_KEY=pk_a5595b67022441f2863d3f6faba5642e </b>
+  <b>export API_KEY=pk_a5595b67022441f2863d3f6faba5642e </b>
 </p>
-
 <p><b>Para este projeto, implementei as seguinte funcionalidades pelo python:</b></p>
 
 <ol>
